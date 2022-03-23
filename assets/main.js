@@ -14,6 +14,5 @@ const favoritecolor = prompt('Inserisci il tuo colore preferito')
 
 console.log(favoritecolor);
 
-
-
-document.getElementById(utente).innerHTML = favoritecolor
+// risultato finale
+document.getElementById('utente').innerHTML = firstname + lastname + favoritecolor + '22'
